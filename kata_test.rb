@@ -17,7 +17,15 @@ class KatArray < Minitest::Test
 
    def test_assert_that_number_divisible_by_3_is_mined
     assert_equal("mined", katarray()[2])
-end
+   end
+
+   def test_assert_that_9_is_divisible_by_3
+    assert_equal(9, katarray()[8])
+   end
+
+   def test_assert_that_21_is_divisible_by_3
+    assert_equal(21, katarray()[20])
+   end
 
 
 
