@@ -27,6 +27,10 @@ class KatArray < Minitest::Test
     assert_equal(21, katarray()[20])
    end
 
+   def test_assert_that_number_divisible_by_5_is_minds
+    assert_equal("minds", katarray()[4])
+   end
+
 
 
 
