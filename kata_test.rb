@@ -43,13 +43,12 @@ class KatArray < Minitest::Test
     assert_equal("mined minds", katarray()[14])
    end
 
-  
+   def test_assert_that_45_is_mined_minds
+    assert_equal("mined minds", katarray()[44])
+   end
 
-
-
-
-
-
-
+   def test_assert_that_60_is_mined_minds
+    assert_equal("mined minds", katarray()[59])
+   end
 
 end
