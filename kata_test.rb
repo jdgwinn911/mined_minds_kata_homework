@@ -11,4 +11,11 @@ class KatArray < Minitest::Test
     assert_equal(Array, katarray().class)
    end
 
+
+
+
+
+
+
+
 end
